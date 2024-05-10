@@ -1,5 +1,4 @@
 .item01 {
-    background-color: var(--white);
     grid-column: 1 / span 2;
     grid-row: 1;
 }
@@ -17,11 +16,15 @@
 }
 
 .item02 {
+    background-color: var(--cyan);
+    border-radius: 0 0 0 0.75rem;
     grid-column: 1;
     grid-row: 2;
 }
 
 .item03 {
+    background-color: hsl(179, 61%, 54%);
+    border-radius: 0 0 0.75rem 0;
     grid-column: 2;
     grid-row: 2;
 }

@@ -4,7 +4,7 @@ import Colors from "./Colors";
 export const Container = styled.main `
   display: grid;
   grid-template-columns: 300px 300px;
-  grid-template-rows: 240px 240px;
+  grid-template-rows: 210px 270px;
   margin: 0 auto;
   width: 600px;
   height: 480px;
@@ -17,4 +17,5 @@ export const GridArea = styled.section `
   flex-direction: column;
   gap: 12px;
   padding: 2rem;
+  color: ${Colors.white};
 `;
