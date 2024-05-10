@@ -1,5 +1,7 @@
-import './App.css'
-
-const App = () => {}
+const App = () => {
+  return (
+    <p>Olá mundo!</p>
+  );
+}
 
 export default App

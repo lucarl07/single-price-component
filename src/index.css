@@ -1,14 +1,11 @@
-:root {
-  /** Primary colors: **/
-  --cyan: hsl(179, 62%, 43%);
-  --bright-yellow: hsl(71, 73%, 54%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /** Neutral colors: **/
-  --light-gray: hsl(204, 43%, 93%);
-  --grayish-blue: hsl(218, 22%, 67%);
-
-  /** Font sizes: **/
-  --p-size: 16px;
+body {
+  background-color: hsl(218, 22%, 67%);
 }
 
 @font-face {
