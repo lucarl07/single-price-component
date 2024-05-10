@@ -1,7 +1,11 @@
+import { Container } from "../Styles/Container.js"
+
 const App = () => {
   return (
-    <p>Olá mundo!</p>
+    <Container>
+      <div className="section-wrapper"></div>
+    </Container>
   );
 }
 
-export default App
+export default App;
