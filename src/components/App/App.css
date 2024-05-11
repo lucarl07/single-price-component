@@ -52,3 +52,12 @@ h1 {
     grid-column: 2;
     grid-row: 2;
 }
+.itemWhyUs h1 {
+    margin-bottom: 4px;
+}
+.itemWhyUs .list {
+    color: hsla(0, 0%, 100%, 0.75);
+    list-style-type: none;
+    line-height: 21px;
+    font-size: 14px;
+}
