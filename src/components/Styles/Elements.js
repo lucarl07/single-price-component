@@ -8,6 +8,7 @@ export const Container = styled.main `
   margin: 0 auto;
   width: 640px;
   height: 480px;
+  box-shadow: 0 10px 20px hsla(0, 0%, 0%, 0.125);
   background-color: ${Colors.white};
   border-radius: 0.75rem;
 `;
