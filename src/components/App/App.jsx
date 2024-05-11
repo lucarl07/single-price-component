@@ -1,10 +1,10 @@
-import { GridArea, Container } from "../Styles/Elements.js"
+import { GridArea, Container, Button } from "../Styles/Elements.js"
 import './App.css'
 
 const App = () => {
   return (
     <Container>
-      <GridArea className="item01">
+      <GridArea className="itemJoinUs">
         <h1>Join our community</h1>
         <h2>30-day, hassle free money back guarantee</h2>
         <p>
@@ -12,11 +12,19 @@ const App = () => {
           Perfect for any developers who are serious about honing their skills.
         </p>
       </GridArea>
-      <GridArea className="item02">
-        <h1>Sou a segunda seção!</h1>
+      <GridArea className="itemMoSubs">
+        <div className="subsPlan">
+          <h1>Monthly Subscription</h1>
+          <div className="wrapper">
+            <span className="subsPricing">$29</span>
+            <span className="billingTimeSpan">per month</span>
+          </div>
+          <p>Full access for less than $1 a day</p>
+        </div>
+        <Button>Sign Up</Button>
       </GridArea>
-      <GridArea className="item03">
-        <h1>Sou a terceira seção!</h1>
+      <GridArea className="itemWhyUs">
+        <h1>Why Us</h1>
       </GridArea>
     </Container>
   );
